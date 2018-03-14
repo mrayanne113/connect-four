@@ -1,6 +1,42 @@
+html {
+  background-color: #4464d0;
+  font-family: Arial, serif;
+}
+
+h1 {
+  /*color: #ea3323;*/
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.red-checker,
+.black-checker {
+  display: none;
+  width: 75px;
+}
+
+.instructions {
+  min-height: 120px;
+}
+
+.instructions p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/*.checker-selection {*/
+  /*min-height: 120px;*/
+/*}*/
+
 #grid {
   border: 1px solid black;
   margin: auto;
   display: block;
   background-size: 100%;
+  background-color: #fff;
+  margin-bottom: 3rem;
 }
