@@ -12,11 +12,11 @@ h1 {
   margin: 2rem 0;
 }
 
-.red-checker,
+/*.red-checker,
 .black-checker {
   display: none;
   width: 75px;
-}
+}*/
 
 .instructions {
   min-height: 120px;
