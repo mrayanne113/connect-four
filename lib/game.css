@@ -1,39 +1,27 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 html {
-  /*background-color: #4464d0;*/
   background-color: #fff;
   font-family: Arial, serif;
-
-  text-shadow: 0 2px 2px rgb(91, 91, 92);
-}
-
-body {
-  background-image: url("../img/family-room.jpg");
+  background: url("../img/family-room.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  text-shadow: 0 2px 2px rgb(91, 91, 92);
 
-}
-
-h1 {
-  color: #fff;
-  font-size: 4rem;
-  font-weight: bold;
-  text-align: left;
-  margin: 2rem 0;
-  vertical-align: middle;
-  display: inline;
-}
-
-.instructions p {
-  color: #fff;
-  font-size: 1.5rem;
-  margin-right: 7rem;
-  display: inline;
 }
 
 .logo {
@@ -45,20 +33,16 @@ h1 {
   float: left;
   padding: 1rem;
   color: #fff;
+  /*background-color: #4464d0;*/
   background-color: rgba(68, 100, 208, 0.7);
-  margin: 1rem;
-
+  margin: 3rem 1rem 1rem 1rem;
 }
 
 .right-col {
   width: 75%;
   float: left;
-}
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
+  margin-top: 3rem;
+  padding-left: 2rem;
 }
 
 #grid {
