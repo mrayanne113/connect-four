@@ -20,22 +20,20 @@ body {
 }
 
 h1 {
-  /*color: #ea3323;*/
   color: #fff;
   font-size: 4rem;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   margin: 2rem 0;
-}
-
-.instructions {
-  min-height: 2rem;
+  vertical-align: middle;
+  display: inline;
 }
 
 .instructions p {
   color: #fff;
-  text-align: center;
   font-size: 1.5rem;
+  margin-right: 7rem;
+  display: inline;
 }
 
 .logo {
@@ -66,7 +64,6 @@ h1 {
 #grid {
   border: 1px solid black;
   margin: auto;
-  /*display: block;*/
   background-size: 100%;
   background-color: #fff;
   margin-bottom: 3rem;
