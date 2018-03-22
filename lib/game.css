@@ -16,12 +16,6 @@ h1 {
   margin: 2rem 0;
 }
 
-/*.red-checker,
-.black-checker {
-  display: none;
-  width: 75px;
-}*/
-
 .instructions {
   min-height: 2rem;
 }
@@ -31,10 +25,6 @@ h1 {
   text-align: center;
   font-size: 1.5rem;
 }
-
-/*.checker-selection {*/
-/*min-height: 120px;*/
-/*}*/
 
 #grid {
   border: 1px solid black;
