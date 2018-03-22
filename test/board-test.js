@@ -1,14 +1,14 @@
-var chai = require('chai');
-var assert = chai.assert;
+const chai = require('chai');
+const assert = chai.assert;
 
-var Game = require('../lib/Game.js');
+const Board = require('../lib/Board.js');
 
-describe('Game', function () {
-  context('')
+describe('Board', function () {
+  it('Check if Board.status is updating red if red checker', () => {
+
+  })
+
+  it('Check if Board.status is updating blue if red checker', () => {
+
+  })
 });
-
-// Prevent checker from leaving canvas aka -negative
-// Prevent checker from leaving canvas aka above 550
-// Check if Board.status is updating red if red checker
-// Check if Board.status is updating blue if red checker
-
