@@ -1,10 +1,22 @@
 html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
   /*background-color: #4464d0;*/
   background-color: #fff;
   font-family: Arial, serif;
+
+  text-shadow: 0 2px 2px rgb(91, 91, 92);
+}
+
+body {
   background-image: url("../img/family-room.jpg");
   background-size: cover;
-  text-shadow: 0 2px 2px rgb(91, 91, 92);
+
 }
 
 h1 {
@@ -26,10 +38,35 @@ h1 {
   font-size: 1.5rem;
 }
 
+.logo {
+  width: 100%;
+}
+
+.left-sidebar {
+  width: calc(25% - 2rem);
+  float: left;
+  padding: 1rem;
+  color: #fff;
+  background-color: rgba(68, 100, 208, 0.7);
+  margin: 1rem;
+
+}
+
+.right-col {
+  width: 75%;
+  float: left;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #grid {
   border: 1px solid black;
   margin: auto;
-  display: block;
+  /*display: block;*/
   background-size: 100%;
   background-color: #fff;
   margin-bottom: 3rem;

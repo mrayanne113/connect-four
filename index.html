@@ -6,13 +6,24 @@
   <link rel="stylesheet" href="./lib/game.css">
 </head>
 <body>
-<h1>Connect Four</h1>
+<!--<h1>Connect Four</h1>-->
 <section class="instructions">
-  <p>Welcome</p>
+  <!--<p>Welcome</p>-->
 </section>
 <section class="checker-selection"></section>
-<span></span>
-<canvas id="grid" width="700" height="700"></canvas>
+<section class="container group">
+  <section class="left-sidebar">
+    <img class="logo" src="img/Connect_four_logo.png" alt="Connect Four Game">
+    <p>Player Red goes first. You can select which column to drop a checker with spacebar or enter key. Player 2 (blue)
+       goes
+       second. Players will alternate turns after playing a checker. </p>
+    <p>Play alternates until one player gets four checkers of his or her color in a row.</p>
+    <p>The four in a row can be horizontal, vertical, or diagonal.</p>
+  </section>
+  <section class="right-col">
+    <canvas id="grid" width="700" height="700"></canvas>
+  </section>
+</section>
 <script src="main.bundle.js"></script>
 </body>
 </html>
