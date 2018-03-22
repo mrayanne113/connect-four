@@ -36,6 +36,18 @@ html {
   /*background-color: #4464d0;*/
   background-color: rgba(68, 100, 208, 0.7);
   margin: 3rem 1rem 1rem 1rem;
+  min-width: 250px;
+}
+
+.score-container {
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 0 2px 2px rgb(56, 56, 56);
+}
+
+.score-container p {
+  float: left;
+  width: 50%;
 }
 
 .right-col {
@@ -47,8 +59,9 @@ html {
 
 #grid {
   border: 1px solid black;
-  margin: auto;
   background-size: 100%;
   background-color: #fff;
-  margin-bottom: 3rem;
+  margin: 0 auto 3rem;
+  float: none;
+  display: block;
 }
