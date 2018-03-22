@@ -1,10 +1,18 @@
-var chai = require('chai');
-var assert = chai.assert;
+const chai = require('chai');
+const assert = chai.assert;
 
-var Game = require('../lib/Game.js');
+const Red = require('../lib/Red.js')
+global.canvas = {
+  width: 700,
+  height: 700
+}
 
-describe('Game', function () {
-  context('')
+describe('Red', function () {
+  it('checker should not move off board', () => {
+    let red = new Red()
+    console.log(red.x)
+    // red.selectCol(key, this)
+      // red.x -= 100; move left min 50
+      // red.x += 100; move right max 650
+  })
 });
-
-// Selector Checker can not move off the board.
