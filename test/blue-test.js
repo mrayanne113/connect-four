@@ -8,11 +8,22 @@ global.canvas = {
 }
 
 describe('Blue', function () {
-  it('checker should not move off board', () => {
-    let blue = new Blue()
-    console.log(blue.x)
-    // blue.selectCol(key, this)
+  it('should be blue', () => {
+    let blue = new Blue();
+    assert.equal(blue.color, 'blue')
+  })
+
+  it('checker should not move off board to left', () => {
+    let blue = new Blue(50, 50)
+    blue.selectCol()
+    assert.equal(blue.x, 50)
       // blue.x -= 100; move left min 50
+  })
+
+   it('checker should not move off board to right', () => {
+    let blue = new Blue(650, 50)
+    blue.selectCol()
+    assert.equal(blue.x, 650)
       // blue.x += 100; move right max 650
   })
 });
