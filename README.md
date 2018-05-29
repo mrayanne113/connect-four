@@ -16,14 +16,14 @@
 * webpack
 * ESlintering
 
-## Playability Features
+### Playability Features
 * [X] Indicate when the game is over and won or lost
 * [X] Allow the user to start a new game
 * [X] Display a score (if applicable)
 * [X] Include a clean UI surrounding the actual game interface itself (this might include instructions on how to play, a high score saved in localStorage, etc. Think of what would be most intuitive for your particular game.)
 
 
-## Installing
+### Installing
 
 Clone or download this repo then run 
 
@@ -35,20 +35,20 @@ and then run to start the server
 
 ```npm start```
 
-## Testing 
+### Testing 
 
 To run the testing suite
 
 ```npm test```
 
-## Linting 
+### Linting 
 
 To the the eslint please use
 
 ```npm run eslint```
 
 
-## Authors
+### Authors
 
 [Camilo Snapp](https://github.com/CamArturo "His Github Homepage")
 
